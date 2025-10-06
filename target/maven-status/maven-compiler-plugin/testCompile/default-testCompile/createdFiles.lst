@@ -1,0 +1,10 @@
+pages/CartPage.class
+pages/WebViewPage.class
+pages/SplashPage.class
+pages/HomePage.class
+utils/CommonUtils.class
+base/BasePage.class
+pages/ProductsPage.class
+tests/HomeTest.class
+AppTest.class
+tests/SplashTest.class

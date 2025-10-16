@@ -47,7 +47,7 @@ jobs:
 
       - name: Check APK
         run: |
-          APK_PATH="$GITHUB_WORKSPACE/app/General-Store.apk"
+          APK_PATH="$GITHUB_WORKSPACE/General-Store.apk"
           if [ ! -f "$APK_PATH" ]; then echo "❌ APK not found at $APK_PATH"; exit 1; fi
           echo "✅ APK found at $APK_PATH"
           echo "Verifying APK format..."
